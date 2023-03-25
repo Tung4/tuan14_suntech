@@ -223,32 +223,32 @@ header {
   }
 }
 
+.feature-title {
+  margin-top: 5rem;
+  margin-bottom: 0;
+  text-align: center;
+  h2 {
+    color: #333333;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  p {
+    color: #3cb878;
+    font-size: 1.4rem;
+    font-style: italic;
+  }
+}
 .feature {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   padding: 80px;
   flex-wrap: wrap;
-  &-title {
-    flex: 20%;
-    margin-top: 5rem;
-    margin-bottom: 0;
-    text-align: center;
-    h2 {
-      color: #333333;
-      font-size: 3rem;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-    p {
-      color: #3cb878;
-      font-size: 1.4rem;
-      font-style: italic;
-    }
-  }
+
   &-items {
-    flex: 20%;
+    flex: 18%;
     h3 {
       color: #333333;
       margin-top: 2rem;

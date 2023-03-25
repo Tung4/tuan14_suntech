@@ -255,25 +255,7 @@ header {
   color: #888888;
 }
 
-.feature {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 3rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 80px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
 .feature-title {
-  -webkit-box-flex: 20%;
-      -ms-flex: 20%;
-          flex: 20%;
   margin-top: 5rem;
   margin-bottom: 0;
   text-align: center;
@@ -289,10 +271,26 @@ header {
   font-size: 1.4rem;
   font-style: italic;
 }
+
+.feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 80px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
 .feature-items {
-  -webkit-box-flex: 20%;
-      -ms-flex: 20%;
-          flex: 20%;
+  -webkit-box-flex: 18%;
+      -ms-flex: 18%;
+          flex: 18%;
 }
 .feature-items h3 {
   color: #333333;
