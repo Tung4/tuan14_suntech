@@ -374,6 +374,7 @@ header {
 }
 .footer ul {
   cursor: pointer;
+  margin: 10px 0px;
 }
 .footer ul li {
   display: inline;
