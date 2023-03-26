@@ -306,3 +306,18 @@ header {
     flex: 1 1;
   }
 }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #616161;
+  background-color: #000000;
+  ul {
+    cursor: pointer;
+    li {
+      display: inline;
+      list-style: none;
+    }
+  }
+}
