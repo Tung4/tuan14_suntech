@@ -239,7 +239,7 @@ header {
     font-style: italic;
   }
 }
-.feature {
+.feature-item-list {
   display: flex;
   gap: 2rem;
   justify-content: center;
@@ -247,7 +247,7 @@ header {
   padding: 80px;
   flex-wrap: wrap;
 
-  &-items {
+  .feature-item {
     flex: 18%;
     h3 {
       color: #333333;
@@ -259,5 +259,50 @@ header {
       color: #3cb878;
       font-size: 1.8rem;
     }
+  }
+}
+
+.offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  .offer-left {
+    flex: 1 1;
+    background-image: url("../img/footer/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 30px;
+    h2 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 1.4rem;
+      margin: 0;
+    }
+  }
+
+  .offer-contact {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    input {
+      padding: 1rem 10rem 1rem 1rem;
+    }
+    button {
+      padding: 0 3rem;
+      color: #fff;
+      margin-left: 1rem;
+      font-size: 1.4rem;
+      background-color: #3cb878;
+      text-transform: uppercase;
+    }
+  }
+
+  .offer-right {
+    flex: 1 1;
   }
 }

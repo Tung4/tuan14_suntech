@@ -272,7 +272,7 @@ header {
   font-style: italic;
 }
 
-.feature {
+.feature-item-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -287,18 +287,75 @@ header {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.feature-items {
+.feature-item-list .feature-item {
   -webkit-box-flex: 18%;
       -ms-flex: 18%;
           flex: 18%;
 }
-.feature-items h3 {
+.feature-item-list .feature-item h3 {
   color: #333333;
   margin-top: 2rem;
   font-size: 1.4rem;
   font-weight: bold;
 }
-.feature-items p {
+.feature-item-list .feature-item p {
   color: #3cb878;
   font-size: 1.8rem;
+}
+
+.offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.offer .offer-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  background-image: url("../img/footer/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 30px;
+}
+.offer .offer-left h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.offer .offer-left p {
+  font-size: 1.4rem;
+  margin: 0;
+}
+.offer .offer-contact {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.offer .offer-contact input {
+  padding: 1rem 10rem 1rem 1rem;
+}
+.offer .offer-contact button {
+  padding: 0 3rem;
+  color: #fff;
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  background-color: #3cb878;
+  text-transform: uppercase;
+}
+.offer .offer-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
 }
