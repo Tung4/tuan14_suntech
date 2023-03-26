@@ -267,7 +267,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  .offer-left {
+  &-left {
     flex: 1 1;
     background-image: url("../img/footer/bg.jpg");
     background-repeat: no-repeat;
@@ -285,7 +285,7 @@ header {
     }
   }
 
-  .offer-contact {
+  &-contact {
     margin-top: 3rem;
     display: flex;
     justify-content: center;
@@ -302,7 +302,7 @@ header {
     }
   }
 
-  .offer-right {
+  &-right {
     flex: 1 1;
   }
 }
