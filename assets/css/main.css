@@ -380,3 +380,51 @@ header {
   display: inline;
   list-style: none;
 }
+
+@media screen and (max-width: 992px) {
+  .best-seller {
+    padding: 20px;
+  }
+  .categories img {
+    max-width: 50%;
+  }
+  .feature-item-list {
+    padding: 40px;
+  }
+  .feature-item-list .feature-item {
+    -webkit-box-flex: 32%;
+        -ms-flex: 32%;
+            flex: 32%;
+  }
+  .offer-contact button {
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 10px 0px 0px 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner {
+    position: relative;
+  }
+  .banner-title {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .categories img {
+    max-width: 100%;
+  }
+  .banner {
+    position: relative;
+  }
+  .banner-title {
+    font-size: 3rem;
+  }
+  .feature-item-list {
+    padding: 20px;
+  }
+  .feature-item-list .feature-item {
+    -webkit-box-flex: unset;
+        -ms-flex: unset;
+            flex: unset;
+  }
+}
